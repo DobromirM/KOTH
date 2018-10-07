@@ -2,7 +2,7 @@
 
 King of the hill template for a game inspired by the card game "War".
 
-###Rules:<br>
+### Rules:<br>
 
 Every bot starts with a hand of cards with values from 1 to 13 (Ace being 1 and King being 13).
 Every round the bots are randomly paired and must pick a card from their hand to play. The bot with 
@@ -12,7 +12,7 @@ and the turn is repeated. If the turn is repeated 3 times and it is still a tie,
 bot plays an invalid card (a card that is not in his hand) his card for the turn will have a value of 0.
 Last bot standing after all rounds is the winner!
 
-###Task:
+### Task:
 
 Create a new Bot class that returns a card from your hand (2 <= card_value <= 13). The Bot class must inherit the generic Bot class and define a 'select_card' function as shown bellow:
 
